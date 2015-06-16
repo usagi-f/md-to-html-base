@@ -1,0 +1,14 @@
+{
+  "name": "md-to-html-base",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usagi-f/md-to-html-base.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-front-matter": "^1.2.3",
+    "gulp-markdown": "^1.0.0",
+    "gulp-multi-renderer": "0.0.2"
+  }
+}

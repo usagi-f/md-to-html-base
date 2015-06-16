@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title><%= frontMatter.title %></title>
+        <link rel="stylesheet" href="../assets/css/github.css">
+        <link rel="stylesheet" href="../assets/css/user.css">
+    </head>
+    <body>
+        <header class="u-header">ヘッダー</header>
+        <section class="u-wrapper">
+            <h1><%= frontMatter.title %></h1>
+            <%- contents %>
+        </section>
+    </body>
+</html>
